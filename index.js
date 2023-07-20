@@ -12,6 +12,18 @@ const hero = document.querySelector(".hero");
 const showMoreButton = document.getElementById("show-more-button");
 const screenSize = window.innerWidth;
 
+
+// form field clearance 
+function clearFormFields() {
+  // Add a small delay to give FormSubmit some time to handle the submission
+  setTimeout(function() {
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("message").value = "";
+  }, 2000); // You can adjust the delay time as needed
+}
+
+
 // Function to toggle the body class between light-mode and dark-mode
 function toggleBodyClass() {
   body.classList.toggle("light-mode");
