@@ -15,12 +15,11 @@ const screenSize = window.innerWidth;
 
 // form field clearance 
 function clearFormFields() {
-  // Add a small delay to give FormSubmit some time to handle the submission
   setTimeout(function() {
     document.getElementById("name").value = "";
     document.getElementById("email").value = "";
     document.getElementById("message").value = "";
-  }, 2000); // You can adjust the delay time as needed
+  }, 2000); 
 }
 
 
