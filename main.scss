@@ -84,7 +84,7 @@ body {
   
   .hero-slide-content {
     width: 50%;
-    padding: 1.5rem;
+    // padding: 1.5rem;
     color: $black;
     display: flex;
     flex-direction: column;
@@ -94,6 +94,17 @@ body {
     top: 50%;
     left: 40%;
     transform: translate(-50%, -50%);
+    @media only screen and (min-width : $medium-screen) and (max-width : 1310px) {
+/* Styles */
+      position: absolute;
+      top: 50%;
+      left: 30%;
+      align-items: center;
+      >p{
+        inline-size: 17rem;
+        overflow-wrap: break-word;
+      }
+    }
     @media screen and (max-width: $medium-screen){
       position: absolute;
       top: 50%;
@@ -108,7 +119,7 @@ body {
       font-size: 2rem;
     }
     .hello{
-      font-size: 10rem;
+      font-size: 9.5rem;
       inline-size: 30rem;
       overflow-wrap: break-word;
       @media screen and (max-width: $medium-screen) {
