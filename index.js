@@ -149,8 +149,7 @@ let projects = [
   imageSrc: 'images/imggalapp.jpg',
   title: 'Image Gallery App',
   description: 'REACT-JS, HTML, CSS/SCSS, Unsplash API',
-  link: '#todo on github',
-  link: '#'
+  link: 'https://github.com/rkgith01/react-img-app',
   },
   {
     imageSrc: 'images/dogbreedapp.jpg',
@@ -162,7 +161,7 @@ let projects = [
     imageSrc: 'images/horseapp.jpg',
     title: 'Horse Race Game',
     description: 'HTML, CSS/SCSS, JavaScript, Horse Race Game',
-    link: '#todo on github'
+    link: 'https://github.com/rkgith01/horse-race-game'
   },
     {
     imageSrc: 'images/ipcapp.jpg',
