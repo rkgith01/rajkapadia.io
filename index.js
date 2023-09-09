@@ -136,14 +136,13 @@ startSlideshow();
 
 
 
-
 // Array to store project details
 let projects = [
   {
     imageSrc: 'images/ccapp.jpg',
     title: 'Currency Conversion',
     description: 'HTML, CSS/SCSS, JavaScript ExchangeRate API Goldapi.io',
-    link: 'https://codepen.io/rkgith01/pen/LYXbQMP'
+    link: 'https://codepen.io/rkgith01/full/LYXbQMP'
   },
   {
   imageSrc: 'images/imggalapp.jpg',
@@ -152,10 +151,16 @@ let projects = [
   link: 'https://github.com/rkgith01/react-img-app',
   },
   {
+  imageSrc: 'images/weatherapp.jpg',
+  title: 'Weather App',
+  description: 'JavaScript, Geolocator, CSS/SCSS, FreeCodeCamp API',
+  link: 'https://codepen.io/rkgith01/full/ZEVEOaO',
+  },
+  {
     imageSrc: 'images/dogbreedapp.jpg',
     title: 'Dog breed\'s',
     description: 'HTML, CSS/SCSS, JavaScript dogceo API',
-    link: 'https://codepen.io/rkgith01/pen/WNYxzXq'
+    link: 'https://codepen.io/rkgith01/full/WNYxzXq'
   },
   {
     imageSrc: 'images/horseapp.jpg',
@@ -167,37 +172,37 @@ let projects = [
     imageSrc: 'images/ipcapp.jpg',
     title: 'Iphone calculator',
     description: 'Javascript, HTML, Bootstrap, CSS/SCSS',
-    link: 'https://codepen.io/rkgith01/pen/LYgKbOp'
+    link: 'https://codepen.io/rkgith01/full/LYgKbOp'
   },
     {
     imageSrc: 'images/plpapp.jpg',
     title: 'Product Landing Page',
     description: 'Bootstrap, HTML, JavaScript, CSS',
-    link: 'https://codepen.io/rkgith01/pen/bGQWgpw'
+    link: 'https://codepen.io/rkgith01/full/bGQWgpw'
   },
     {
     imageSrc: 'images/todoapp.jpg',
     title: 'Todo List App',
     description: 'Javascript-Bootstrap-CSS/SCSS',
-    link: 'https://codepen.io/rkgith01/pen/oNarzGm'
+    link: 'https://codepen.io/rkgith01/full/oNarzGm'
   },
     {
     imageSrc: 'images/ttpapp.jpg',
     title: 'Tribute Page',
     description: 'HTML, CSS/SCSS',
-    link: 'https://codepen.io/rkgith01/pen/gOxYRLW'
+    link: 'https://codepen.io/rkgith01/full/gOxYRLW'
   },
     {
     imageSrc: 'images/txcapp.jpg',
     title: 'Tax calculator',
     description: 'Bootstrap, JavaScript, CSS/SCSS',
-    link: 'https://codepen.io/rkgith01/pen/VwVbove'
+    link: 'https://codepen.io/rkgith01/full/VwVbove'
   },
     {
     imageSrc: 'images/portfolioapp.jpg',
     title: 'Portfolio Page',
     description: 'Bootstrap, JavaScript, CSS',
-    link: 'https://codepen.io/rkgith01/pen/dyQZGJE'
+    link: 'https://codepen.io/rkgith01/full/dyQZGJE'
   },
   
 ];
